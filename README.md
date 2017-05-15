@@ -20,7 +20,7 @@ Instead of a local GPU, you could use Amazon Web Services to launch an EC2 GPU i
 
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
-| Submission Files      | The submission includes all required file RNN_project_student_version.ipynb  All code must be written ONLY in the TODO sections and no previous code should be modified.		|
+| Submission Files      |  RNN_project.ipynb, my_answers.py --> both the completed notebook  RNN_project.ipynb as well as all completed python functions requested in the main notebook RNN_project.ipynb (TODO items) should be copied into this python script and submitted for grading.		|
 
 #### Documentation
 
