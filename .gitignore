@@ -16,3 +16,5 @@ __pycache__/
 .venv
 venv/
 ENV/
+
+test_perception.py

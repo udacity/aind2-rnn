@@ -44,3 +44,8 @@ def window_transform_text(text,window_size,step_size):
 
     
     return inputs,outputs
+
+# TODO build the required RNN model: 
+# a single LSTM hidden layer with softmax activation, categorical_crossentropy loss 
+def build_part2_RNN(step_size, window_size):
+    pass
