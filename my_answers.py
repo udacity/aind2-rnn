@@ -38,8 +38,7 @@ def window_transform_text(text,window_size,step_size):
     inputs = []
     outputs = []
     
-
-    
+  
     return inputs,outputs
 
 # TODO build the required RNN model: 
