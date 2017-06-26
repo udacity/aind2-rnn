@@ -28,14 +28,11 @@ def build_part1_RNN(step_size, window_size):
 
 ### TODO: list all unique characters in the text and remove any non-english ones
 def clean_text(text):
-    # find all unique characters in the text
-
-
     # remove as many non-english characters and character sequences as you can 
-
+    # but don't remove the punctuation given below
+    punctuation = ['!', ',', '.', ':', ';', '?']
 
 ### TODO: fill out the function below that transforms the input text and window-size into a set of input/output pairs for use with our RNN model
-
 def window_transform_text(text,window_size,step_size):
     # containers for input/output pairs
     inputs = []
