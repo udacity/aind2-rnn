@@ -13,7 +13,6 @@ If you have access to a GPU, you should follow the Keras instructions for [runni
 Instead of a local GPU, you could use Amazon Web Services to launch an EC2 GPU instance. (This costs money.)
 
 
-         
 ## Rubric items
 
 #### Files Submitted
@@ -21,12 +20,6 @@ Instead of a local GPU, you could use Amazon Web Services to launch an EC2 GPU i
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
 | Submission Files      |  RNN_project.ipynb, my_answers.py --> both the completed notebook  RNN_project.ipynb as well as all completed python functions requested in the main notebook RNN_project.ipynb (TODO items) should be copied into this python script and submitted for grading.		|
-
-#### Documentation
-
-| Criteria       		|     Meets Specifications	        			            | 
-|:---------------------:|:---------------------------------------------------------:| 
-| Comments         		| The submission includes comments that describe the functionality of the code.  Every line of code is preceded by a meaningful comment.  1. describing input parameters to Keras module functions.  2. function calls  3. explaning thought process in common language	|
 
 #### Step 1:  Implement a function to window time series
 | Criteria       		|     Meets Specifications	        			            | 
@@ -66,3 +59,12 @@ Instead of a local GPU, you could use Amazon Web Services to launch an EC2 GPU i
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
 | Generate text using a trained RNN classifier.   | The submission presents examples of generated text from a trained RNN module.  The majority of this generated text should consist of real english words. |
+
+## Submission
+Before submitting your solution to a reviewer, you are required to submit your project to Udacity's Project Assistant, which will provide some initial feedback.  
+
+The setup is simple.  If you have not installed the client tool already, then you may do so with the command `pip install udacity-pa`.  
+
+To submit your code to the project assistant, run `udacity submit` from within the top-level directory of this project.  You will be prompted for a username and password.  If you login using google or facebook, visit [this link](https://project-assistant.udacity.com/auth_tokens/jwt_login) for alternate login instructions.
+
+This process will create a zipfile in your top-level directory named rnn-<id>.zip.  This is the file that you should submit to the Udacity reviews system.
