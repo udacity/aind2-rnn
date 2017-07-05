@@ -26,11 +26,11 @@ def build_part1_RNN(window_size):
     pass
 
 
-### TODO: list all unique characters in the text and remove any non-english ones
+### TODO: return the text input with only ascii lowercase and the punctuation given below included.
 def cleaned_text(text):
-    # remove as many non-english characters and character sequences as you can 
-    # but don't remove the punctuation given below
     punctuation = ['!', ',', '.', ':', ';', '?']
+
+    return text
 
 ### TODO: fill out the function below that transforms the input text and window-size into a set of input/output pairs for use with our RNN model
 def window_transform_text(text, window_size, step_size):
